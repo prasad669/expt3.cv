@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Health Lab</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Bootstrap Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/product.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+	<!-- LOADER -->
+     <!-- <div id="preloader">
+		<div class="loader">
+			<img src="images/preloader.gif" alt="" />
+		</div>
+    </div>end loader -->
+    <!-- END LOADER -->
+	
+	
+	<!-- Start header -->
+	<header class="top-header">
+		<nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+				<a class="navbar-brand" href="index.html"><img style="position: fixed; left: 10px; top: 5px;" src="images/logo.png" alt="image"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav text" style="position:relative; left: -710px; font-size: 16px; font-weight: 700;">
+                        <li><a class="nav-link" href="#gallery">Medicine</a></li>
+						<li><a class="nav-link" href="#gallery">Lab Tests</a></li>
+                        <li><a class="nav-link" href="#blog">Ask Doctor</a></li>
+						<li><a class="nav-link" href="#contact">Covid-19</a></li>
+						<li><a class="nav-link" href="#team">Ayurveda</a></li>
+						
+                    </ul>
+					<ul class="navbar-nav text" style="position:relative; right: 150px;">
+                        <li><a class="nav-link" href="login">Sign In</a></li> 
+					</ul>
+                </div>
+            </div>
+        </nav>
+	</header>
+	<!-- End header -->
+	<!--Search Section-->
+  <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" style= "width: 800px; height: 40px; position: relative; left: 210px; background-color: white;" type="search" placeholder="Search for Medicines" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" style= "position: relative; left: 150px; padding-left: 11px; border-color: white;  padding-top: 3px; height: 38px; width: 50px;" type="submit"><i class="bi bi-search"></i></button>
+    </form>
+  <select style="height: 40px; width: 150px; position: relative; top: -40px; left: 50px; background-color:white; border-color: #ccc; border-radius: 5px;" name="cars" id="cars">
+  <option disabled= "True" value="">Choose city</option>
+  <option value="Mumbai">Mumbai</option>
+  <option value="New Delhi">New Delhi</option>
+  <option value="Kolkata">Kolkata</option>
+  <option value="Bangalore">Bangalore</option>
+  <option value="Hyderabad">Hyderabad</option>
+  <option value="Pune">Pune</option>
+  <option value="Chennai">Chennai</option>
+  <option value="Mangalore">Mangalore</option>
+</select>
+<hr style= "position: relative; top: -40px;">
+<!-- Example single danger button -->
+<ul>
+<li style="display: inline-block;">
+<div class="btn-group">
+  <button style="height:30px; padding-top: 1px; position: relative; top: -40px; left: 25px; font-size: 14px; border-color: white; border-width: 1px; background-color:white;  " type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    All Medicines
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Medicines</a>
+
+  </div>
+</div>
+</li>
+<li style="display: inline-block;">
+<div class="btn-group">
+  <button style="height:30px; padding-top: 1px; position: relative; top: -40px; left: 25px; font-size: 14px; border-color: white; border-width: 1px; background-color: white; " type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    COVID Prevention
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Boost Your Immunity</a>
+    <a class="dropdown-item" href="#">Pulse Oximeter</a>
+    <a class="dropdown-item" href="#">Masks</a>
+    <div class="dropdown-item">Thermometers</div>
+    <a class="dropdown-item" href="#">Disinfectants</a>
+	<a class="dropdown-item" href="#">Chyawanprash</a>
+  </div>
+</div>
+</li>
+<li style="display: inline-block;">
+<div class="btn-group">
+  <button style="height:30px; padding-top: 1px; position: relative; top: -40px; left: 25px; font-size: 14px; border-color: white; border-width: 1px; background-color:white; " type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Featured Brands
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Vicks</a>
+    <a class="dropdown-item" href="#">Dettol</a>
+    <a class="dropdown-item" href="#">Volini</a>
+    <div class="dropdown-item">One Touch</div>
+    <a class="dropdown-item" href="#">Accu-Chek</a>
+  </div>
+</div>
+</li>
+<li style="display: inline-block;">
+<div class="btn-group">
+  <button style="height:30px; padding-top: 1px; position: relative; top: -40px; left: 25px; font-size: 14px; border-color: white; border-width: 1px; background-color:white; " type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Health Care Devices
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Masks</a>
+    <a class="dropdown-item" href="#">Nebulizers & Vaporisers</a>
+    <a class="dropdown-item" href="#">BP Monitors</a>
+    <div class="dropdown-item">Thermometers</div>
+    <a class="dropdown-item" href="#">Diabetes Monitor</a>
+  </div>
+</div>
+</li>
+<li style="display: inline-block;">
+<div class="btn-group">
+  <button style="height:30px; padding-top: 1px; position: relative; top: -40px; left: 25px; font-size: 14px; border-color: white; border-width: 1px; background-color:white; " type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Personal Care
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div>
+</li>
+</ul>
+
+
+	<!--End ofSearch section-->
+	
+	<!-- Start Banner -->
+	<div class="ulockd-home-slider">
+		<div class="container-fluid" style= "position: relative; top: -20px;">
+			<div class="row">
+				<div class="pogoSlider" id="js-main-slider">
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(images/slider-04.jpg)">
+						<div class="lbox-caption pogoSlider-slide-element">
+							<div class="lbox-details">
+								<h1>Welcome to Health Lab</h1>
+								<p>Best Health services with our love and care. </p>
+								<a href="#" class="btn">Contact Us</a>
+							</div>
+						</div>
+					</div>
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(images/slider-05.jpg);">
+						<div class="lbox-caption pogoSlider-slide-element">
+							<div class="lbox-details">
+								<h1>We are Expert in The Field of Health Lab</h1>
+								<p>Fusce convallis ante id purus sagittis malesuada. Sed erat ipsum</p>
+								<a href="#appointment" class="btn">Appointment</a>
+							</div>
+						</div>
+					</div>
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(images/slider-06.jpg);">
+						<div class="lbox-caption pogoSlider-slide-element">
+							<div class="lbox-details">
+								<h1>Welcome to Health Lab</h1>
+								<p>Fusce convallis ante id purus sagittis malesuada. Sed erat ipsum </p>
+								<a href="#" class="btn">Contact Us</a>
+							</div>
+						</div>
+						
+					</div>
+				</div><!-- .pogoSlider -->
+			</div>
+		</div>
+	</div>
+	<!-- End Banner -->
+
+	
+	
+	<!-- Start Services -->
+	<div class="container-fluid heading">
+       <p>Top Lab Tests</p>
+      </div>
+      <div id="blur">
+      <div class="products-list border" style="background-color: white;" >
+          <div class="product">
+              	<div class="serviceBox" style="background-color: white; border-width: 1px; border-color: #010238; border-style: solid; height: 240px;">
+				<h3 class="title" style= "position: relative; top: 30px; font-size: 24px;">Complete Blood Count</h3>
+                <img style= "position:relative; left: 90px;" src= "images/apple-touch-icon.png">
+				<button type="submit" style="position:relative; top: 80px;" class="shop" onclick= "details(1)"><span class="bi-cart">&nbsp; &nbsp;</span> Book Now</button>
+				</div>
+          </div>
+          <div class="product">
+             	<div class="serviceBox" style="background-color: white; border-width: 1px; border-color: #010238; border-style: solid; height: 240px;">
+				<h3 class="title" style= "position: relative; top: 30px; font-size: 24px;">Urinalysis</h3>
+                <img style= "position:relative; left: 90px;"src= "images/apple-touch-icon.png">
+				<button type="submit" style="position:relative; top: 80px;" class="shop" onclick= "details(2)"><span class="bi-cart">&nbsp; &nbsp;</span> Book Now</button>
+				</div>
+          </div>
+          <div class="product">
+              	<div class="serviceBox" style="background-color: white; border-width: 1px; border-color: #010238; border-style: solid; height: 240px;">
+				<h3 class="title" style= "position: relative; top: 30px; font-size: 24px;">Platelet Count</h3>
+                <img style= "position:relative; left: 90px;"src= "images/apple-touch-icon.png">
+				<button type="submit" style="position:relative; top: 80px;" class="shop" onclick= "details(3)"><span class="bi-cart">&nbsp; &nbsp;</span> Book Now</button>
+				</div>>
+          </div>
+      </div>
+      <br>
+      <div class="products-list border" >
+          <div class="product">
+             	<div class="serviceBox" style="background-color: white; border-width: 1px; border-color: #010238; border-style: solid; height: 240px;">
+				<h3 class="title" style= "position: relative; top: 30px; font-size: 24px;">Covid-19 Antigen Test</h3>
+                <img style= "position:relative; left: 90px;"src= "images/apple-touch-icon.png">
+				<button type="submit" style="position:relative; top: 80px;" class="shop" onclick= "details(4)"><span class="bi-cart">&nbsp; &nbsp;</span> Book Now</button>
+				</div>
+          </div>
+          <div class="product">
+             	<div class="serviceBox" style="background-color: white; border-width: 1px; border-color: #010238; border-style: solid; height: 240px;">
+				<h3 class="title" style= "position: relative; top: 30px; font-size: 24px;">Estrogens</h3>
+                <img style= "position:relative; left: 90px;"src= "images/apple-touch-icon.png">
+				<button type="submit" style="position:relative; top: 80px;" class="shop" onclick= "details(5)"><span class="bi-cart">&nbsp; &nbsp;</span> Book Now</button>
+				</div>
+          </div>
+          <div class="product">
+              	<div class="serviceBox" style="background-color: white; border-width: 1px; border-color: #010238; border-style: solid; height: 240px;">
+				<h3 class="title" style= "position: relative; top: 30px; font-size: 24px;">Glucose Tests</h3>
+                <img style= "position:relative; left: 90px;"src= "images/apple-touch-icon.png">
+				<button type="submit" style="position:relative; top: 80px;" class="shop" onclick= "details(6)"><span class="bi-cart">&nbsp; &nbsp;</span> Book Now</button>
+				</div>
+          </div>
+      </div>
+  </div>
+  <span class="details" id="1" style="display:none;">
+    <div class="det">
+        <div><img src="img/img1.jpg"></div>
+         <div class="p"style="text-align: left;">
+                <h4 style="font-size: 22px; font-weight: 700;">Complete Blood Count</h4>
+				<dl class="description">
+				<dt>Why get tested?</dt>
+				<dd>To determine your general health status; to screen for, diagnose, or <br>monitor any one  
+				of a variety of diseases and conditions that affect blood cells, <br>such as anemia, infection,
+				inflammation, bleeding disorder or cancer</dd>
+				<dl>
+				<dl class="description">
+				<dt>When to get tested?</dt>
+				<dd>As part of a routine medical exam; when you have signs and symptoms<br> 
+				that may be related to a condition that affects blood cells; at regular<br> 
+				intervals to monitor treatment or disease status or when you are receiving<br> 
+				treatment known to affect blood cells</dd>
+				<dl>
+                <button class="btn" onclick="off(1)">Back</button>
+            </div>
+    </div>
+</span>
+<span class="details" id="2" style="display:none;">
+    <div class="det">
+        <div><img src="img/img2.jpg"></div>
+         <div class="p"style="text-align: left;">
+                <h4 style="font-size: 22px; font-weight: 700;">Complete Blood Count</h4>
+				<dl class="description">
+				<dt>Why get tested?</dt>
+				<dd>To determine your general health status; to screen for, diagnose, or <br>monitor any one  
+				of a variety of diseases and conditions that affect blood cells, <br>such as anemia, infection,
+				inflammation, bleeding disorder or cancer</dd>
+				<dl>
+				<dl class="description">
+				<dt>When to get tested?</dt>
+				<dd>As part of a routine medical exam; when you have signs and symptoms<br> 
+				that may be related to a condition that affects blood cells; at regular<br> 
+				intervals to monitor treatment or disease status or when you are receiving<br> 
+				treatment known to affect blood cells</dd>
+				<dl>
+                <button class="btn" onclick="off(2)">Back</button>
+            </div>
+    </div>
+</span>
+<span class="details" id="3" style="display:none;">
+    <div class="det">
+        <div><img src="img/img3.jpg"></div>
+         <div class="p"style="text-align: left;">
+                <h4 style="font-size: 22px; font-weight: 700;">Complete Blood Count</h4>
+				<dl class="description">
+				<dt>Why get tested?</dt>
+				<dd>To determine your general health status; to screen for, diagnose, or <br>monitor any one  
+				of a variety of diseases and conditions that affect blood cells, <br>such as anemia, infection,
+				inflammation, bleeding disorder or cancer</dd>
+				<dl>
+				<dl class="description">
+				<dt>When to get tested?</dt>
+				<dd>As part of a routine medical exam; when you have signs and symptoms<br> 
+				that may be related to a condition that affects blood cells; at regular<br> 
+				intervals to monitor treatment or disease status or when you are receiving<br> 
+				treatment known to affect blood cells</dd>
+				<dl>
+                <button class="btn" onclick="off(3)">Back</button>
+            </div>
+    </div>
+</span>
+<span class="details" id="4" style="display:none;">
+    <div class="det">
+        <div><img src="img/img4.jpg"></div>
+        <div class="p"style="text-align: left;">
+                <h4 style="font-size: 22px; font-weight: 700;">Complete Blood Count</h4>
+				<dl class="description">
+				<dt>Why get tested?</dt>
+				<dd>To determine your general health status; to screen for, diagnose, or <br>monitor any one  
+				of a variety of diseases and conditions that affect blood cells, <br>such as anemia, infection,
+				inflammation, bleeding disorder or cancer</dd>
+				<dl>
+				<dl class="description">
+				<dt>When to get tested?</dt>
+				<dd>As part of a routine medical exam; when you have signs and symptoms<br> 
+				that may be related to a condition that affects blood cells; at regular<br> 
+				intervals to monitor treatment or disease status or when you are receiving<br> 
+				treatment known to affect blood cells</dd>
+				<dl>
+                <button class="btn" onclick="off(4)">Back</button>
+            </div>
+    </div>
+</span>
+<span class="details" id="5" style="display:none;">
+    <div class="det">
+        <div><img src="img/img9.jpg"></div>
+         <div class="p"style="text-align: left;">
+                <h4 style="font-size: 22px; font-weight: 700;">Complete Blood Count</h4>
+				<dl class="description">
+				<dt>Why get tested?</dt>
+				<dd>To determine your general health status; to screen for, diagnose, or <br>monitor any one  
+				of a variety of diseases and conditions that affect blood cells, <br>such as anemia, infection,
+				inflammation, bleeding disorder or cancer</dd>
+				<dl>
+				<dl class="description">
+				<dt>When to get tested?</dt>
+				<dd>As part of a routine medical exam; when you have signs and symptoms<br> 
+				that may be related to a condition that affects blood cells; at regular<br> 
+				intervals to monitor treatment or disease status or when you are receiving<br> 
+				treatment known to affect blood cells</dd>
+				<dl>
+                <button class="btn" onclick="off(5)">Back</button>
+            </div>
+    </div>
+</span>
+<span class="details" id="6" style="display:none;">
+    <div class="det">
+        <div><img src="img/img5.jpg"></div>
+        <div class="p"style="text-align: left;">
+                <h4 style="font-size: 22px; font-weight: 700;">Complete Blood Count</h4>
+				<dl class="description">
+				<dt>Why get tested?</dt>
+				<dd>To determine your general health status; to screen for, diagnose, or <br>monitor any one  
+				of a variety of diseases and conditions that affect blood cells, <br>such as anemia, infection,
+				inflammation, bleeding disorder or cancer</dd>
+				<dl>
+				<dl class="description">
+				<dt>When to get tested?</dt>
+				<dd>As part of a routine medical exam; when you have signs and symptoms<br> 
+				that may be related to a condition that affects blood cells; at regular<br> 
+				intervals to monitor treatment or disease status or when you are receiving<br> 
+				treatment known to affect blood cells</dd>
+				<dl>
+                <button class="btn" onclick="off(6)">Back</button>
+            </div>
+    </div>
+</span>
+<!--  -->
+<script type="text/javascript">
+
+    function details() {
+        var x = document.getElementById(arguments[0]);
+        var y = document.getElementById('blur');
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.opacity=0.2;
+                x.style.opactiy=1;
+            }
+            else {
+                x.style.display = "none";
+                y.style.opacity=1;
+            }
+
+        }
+    function off(){
+        var x = document.getElementById(arguments[0]);
+        var y = document.getElementById('blur');
+        x.style.display = "none";
+        y.style.opacity=1;
+    }
+</script>
+        <script src="" async defer></script>
+	<!-- Start Team -->
+	<div id="team" class="team-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Our Doctors</h2>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="images/img-1.jpg" alt="">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Dr Rosie Watson</h3>
+                            <span class="post">MS Gynaecologist (London)</span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="images/img-2.jpg" alt="">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Dr George Williams</h3>
+                            <span class="post">Physician</span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="images/img-3.jpg" alt="">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Dr Claira Thomas</h3>
+                            <span class="post">MS Cardiologist</span>
+                            <ul class="social">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+		</div>
+	</div>
+    <!--Ayurveda-->
+	<div class="main">
+	  <div class="heading"></div>
+	  <div class="images"></div>
+	  <div class="content"></div>
+	</div>
+	<!--End of Ayurveda-->
+
+	<!-- Start Gallery -->
+	<div id="gallery" class="gallery-box">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Gallery</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="popup-gallery row clearfix">
+				<div class="col-md-3 col-sm-6">
+					<div class="box-gallery">
+						<img src="images/gallery-01.jpg" alt="">
+						<div class="box-content">	
+							<h3 class="title">Lorem ipsum dolor</h3>
+							<ul class="icon">
+								<li><a href="images/gallery-01.jpg"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="box-gallery">
+						<img src="images/gallery-02.jpg" alt="">
+						<div class="box-content">
+							<h3 class="title">Lorem ipsum dolor</h3>
+							<ul class="icon">
+								<li><a href="images/gallery-02.jpg"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">					
+					<div class="box-gallery">
+						<img src="images/gallery-03.jpg" alt="">
+						<div class="box-content">							
+							<ul class="icon">
+								<li><a href="images/gallery-03.jpg"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="box-gallery">
+						<img src="images/gallery-04.jpg" alt="">
+						<div class="box-content">	
+							<h3 class="title">Lorem ipsum dolor</h3>
+							<ul class="icon">
+								<li><a href="images/gallery-04.jpg"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="box-gallery">
+						<img src="images/gallery-05.jpg" alt="">
+						<div class="box-content">							
+							<h3 class="title">Lorem ipsum dolor</h3>
+							<ul class="icon">
+								<li><a href="images/gallery-05.jpg"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">					
+					<div class="box-gallery">
+						<img src="images/gallery-06.jpg" alt="">
+						<div class="box-content">
+							<h3 class="title">Lorem ipsum dolor</h3>
+							<ul class="icon">
+								<li><a href="images/gallery-06.jpg"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="box-gallery">
+						<img src="images/gallery-07.jpg" alt="">
+						<div class="box-content">
+							<h3 class="title">Lorem ipsum dolor</h3>
+							<ul class="icon">
+								<li><a href="images/gallery-07.jpg"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="box-gallery">
+						<img src="images/gallery-08.jpg" alt="">
+						<div class="box-content">		
+							<h3 class="title">Lorem ipsum dolor</h3>
+							<ul class="icon">
+								<li><a href="images/gallery-08.jpg"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Gallery -->
+
+	
+	<!-- End Team -->
+	<!-- Start About us -->
+	<div id="about" class="about-box">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="title-box">
+							<h2>About Us</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<h2> Welcome to Health Lab </h2>
+								<p>Fusce convallis ante id purus sagittis malesuada. Sed erat ipsum, suscipit sit amet auctor quis, vehicula ut leo. Maecenas felis nulla, tincidunt ac blandit a, consectetur quis elit. Nulla ut magna eu purus cursus sagittis. Praesent fermentum tincidunt varius. Proin sit amet tempus magna. Fusce pellentesque vulputate urna. </p>
+								<p>Fusce convallis ante id purus sagittis malesuada. Sed erat ipsum, suscipit sit amet auctor quis, vehicula ut leo. Maecenas felis nulla, tincidunt ac blandit a, consectetur quis elit. Nulla ut magna eu purus cursus sagittis. Praesent fermentum tincidunt varius. Proin sit amet tempus magna. Fusce pellentesque vulputate urna. </p>
+								<a href="#" class="new-btn-d br-2">Read More</a>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<div class="about-m">
+									<ul id="banner">
+										<li>
+											<img src="images/about-img-01.jpg" alt="">
+										</li>
+										<li>
+											<img src="images/about-img-02.jpg" alt="">
+										</li>
+										<li>
+											<img src="images/about-img-03.jpg" alt="">
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End About us -->
+	<!-- Start Blog -->
+	<div id="blog" class="blog-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Blog</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="blog-inner">
+						<div class="blog-img">
+							<img class="img-fluid" src="images/blog-img-01.jpg" alt="" />
+						</div>
+						<div class="item-meta">
+							<a href="#"><i class="fa fa-comments-o"></i> 5 Comment </a>
+							<a href="#"><i class="fa fa-user-o"></i> Admin</a>
+							<span class="dti">25 July 2018</span>
+						</div>
+						<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+						<a class="new-btn-d br-2" href="#">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="blog-inner">
+						<div class="blog-img">
+							<img class="img-fluid" src="images/blog-img-02.jpg" alt="" />
+						</div>
+						<div class="item-meta">
+							<a href="#"><i class="fa fa-comments-o"></i> 5 Comment </a>
+							<a href="#"><i class="fa fa-user-o"></i> Admin</a>
+							<span class="dti">25 July 2018</span>
+						</div>
+						<h2>Proin vel sem ut lorem rhoncus lacinia. </h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+						<a class="new-btn-d br-2" href="#">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="blog-inner">
+						<div class="blog-img">
+							<img class="img-fluid" src="images/blog-img-03.jpg" alt="" />
+						</div>
+						<div class="item-meta">
+							<a href="#"><i class="fa fa-comments-o"></i> 5 Comment </a>
+							<a href="#"><i class="fa fa-user-o"></i> Admin</a>
+							<span class="dti">25 July 2018</span>
+						</div>
+						<h2>Aliquam egestas magna a malesuada rutrum. </h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+						<a class="new-btn-d br-2" href="#">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Blog -->
+	
+	<!-- Start Contact -->
+	<div id="contact" class="contact-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Contact us</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				
+				<div class="col-lg-12 col-xs-12">
+				  <div class="contact-block">
+					<form id="contactForm">
+					  <div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+								<div class="help-block with-errors"></div>
+							</div>                                 
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+								<div class="help-block with-errors"></div>
+							</div> 
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<input type="text" placeholder="Your number" id="number" class="form-control" name="number" required data-error="Please enter your number">
+								<div class="help-block with-errors"></div>
+							</div> 
+						</div>
+						<div class="col-md-12">
+							<div class="form-group"> 
+								<textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="submit-button text-center">
+								<button class="btn btn-common" id="submit" type="submit">Send Message</button>
+								<div id="msgSubmit" class="h3 text-center hidden"></div> 
+								<div class="clearfix"></div> 
+							</div>
+						</div>
+					  </div>            
+					</form>
+				  </div>
+				</div>
+				
+				
+				<div class="col-lg-12 col-xs-12">
+					<div class="left-contact">
+						<h2>Address</h2>
+						<div class="media cont-line">
+							<div class="media-left icon-b">
+								<i class="fa fa-location-arrow" aria-hidden="true"></i>
+							</div>
+							<div class="media-body dit-right">
+								<h4>Address</h4>
+								<p>Fleming 196 Woodside Circle Mobile, FL 36602</p>
+							</div>
+						</div>
+						<div class="media cont-line">
+							<div class="media-left icon-b">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</div>
+							<div class="media-body dit-right">
+								<h4>Email</h4>
+								<a href="#">demoinfo@gmail.com</a><br>
+								<a href="#">demoinfo@gmail.com</a>
+							</div>
+						</div>
+						<div class="media cont-line">
+							<div class="media-left icon-b">
+								<i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+							</div>
+							<div class="media-body dit-right">
+								<h4>Phone Number</h4>
+								<a href="#">12345 67890</a><br>
+								<a href="#">12345 67890</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	<!-- End Contact -->
+	
+	<!-- Start Subscribe -->
+	<div class="subscribe-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="subscribe-inner text-center clearfix">
+						<h2>Subscribe</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<form action="#" method="post">
+							<div class="form-group">
+								<input class="form-control-1" id="email-1" name="email" placeholder="Email Address" required="" type="text">
+							</div>
+							<div class="form-group">
+								<button type="submit" class="new-btn-d br-2">
+									Subscribe
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Subscribe -->
+	
+	<!-- Start Footer -->
+	<footer class="footer-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Health Lab</a> Design By : <a href="https://html.design/">html design</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+	
+	<a href="#" id="scroll-to-top" class="new-btn-d br-2"><i class="fa fa-angle-up"></i></a>
+
+	<!-- ALL JS FILES -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script> 
+	<script src="js/slider-index.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+	<script src="js/isotope.min.js"></script>	
+	<script src="js/images-loded.min.js"></script>	
+    <script src="js/custom.js"></script>
+</body>
+</html>
